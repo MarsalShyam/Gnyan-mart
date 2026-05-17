@@ -25,7 +25,7 @@ export default function Footer({ user }: { user: IUser }) {
             onClick={() => router.push("/")}
             className="text-white text-3xl font-bold cursor-pointer tracking-wide hover:text-blue-400 transition"
           >
-            MultiCart
+            GnanMart
           </h2>
 
           <p className="text-sm leading-relaxed text-gray-400">
@@ -99,15 +99,15 @@ export default function Footer({ user }: { user: IUser }) {
         {/* ✅ CONTACT INFO - ALL */}
         <div className="space-y-2">
           <h3 className="text-white text-lg font-semibold mb-4">Contact Info</h3>
-          <p className="text-sm">admin@multicart.com</p>
-          <p className="text-sm">+91 98765 43210</p>
-          <p className="text-sm">New Delhi, India</p>
+          <p className="text-sm">admin@gnanmart.com</p>
+          <p className="text-sm">+91 95088 68365</p>
+          <p className="text-sm">Gnyanmani College Of Technology, Tamilnadu</p>
         </div>
       </div>
 
       {/* ✅ BOTTOM BAR */}
       <div className="text-center text-xs text-gray-500 mt-12 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} MultiCart — Powered by Secure Commerce Engine
+        © {new Date().getFullYear()} GnanMart — Powered by Secure Commerce Engine
       </div>
     </footer>
   );

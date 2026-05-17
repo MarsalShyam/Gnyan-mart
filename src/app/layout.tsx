@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-// import "./globals.css";
+import "./globals.css";
 
 import Provider from "@/Provider";
 import StoreProvider from "@/redux/StoreProvider";
@@ -11,7 +11,7 @@ import InitUser from "@/InitUser";
 
 
 export const metadata: Metadata = {
-  title: "Multi-Cart",
+  title: "Gnan-Mart",
   description: "Multi-Vender E-Commerce Website ",
 };
 
